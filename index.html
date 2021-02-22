@@ -18,44 +18,6 @@ header {
   display: inline-block;
 }
 
-.pic {
-  margin: 0 auto;
-  margin-top:-2.5em;
-  
-  border-radius:10em;
-  height:4em;
-  width:4em;
-  background-size: 100% auto;
-  
-  border: 2px solid #e0e0e0;
-  transition : all 0.5s linear;
-  
-}
-
-@-webkit-keyframes wiggle {
-  0%   {
-    transform: rotate(0deg);
-  }
-  25%  {
-    transform: rotate(-30deg);
-  }
-  50%  {
-    transform: rotate(15deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.pic:hover {
-  /*Webkit fix*/
-  -webkit-transform: translateZ(0);
-  
-  cursor:pointer;
-  
-  -webkit-animation: wiggle 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-}
-
 .header-text {
   margin-top:0.5em;
   margin-left:1em;
@@ -71,13 +33,13 @@ header p {
 }
 
 .first-name {
-   font-size: 1.05em;
+   font-size: 1.55em;
 }
 
 .subtitle {
   font-family: "Merriweather";
   padding-top:.3em;
-  font-size:0.55em;
+  font-size:0.75em;
   font-weight:500;
   color: #424242;
 }
@@ -144,19 +106,19 @@ header p {
 }
 
 .content-cat p {
-  font-size:0.55em;
+  font-size:0.65em;
   font-weight:600;
   
   margin-bottom:0;
 }
 
 .content-text {
-  border-left:10px solid #e0e0e0;
+  border-left:1px solid #e0e0e0;
   transition: border 0.66s ease-in;
 }
 
 .content-text:hover {
-  border-left:10px solid #bdbdbd;
+  border-left:1px solid #bdbdbd;
 }
 
 .big-text {
@@ -181,7 +143,6 @@ header p {
 .content-text ul li {
   font-family: "Open Sans";
   font-size:0.7em;
-  
   display:inline-block;
   
 }
@@ -192,7 +153,7 @@ header p {
   color: #424242;
   
   font-weight:600;
-  font-size:0.75;
+  font-size:0.8em;
 }
 
 .content-text ul li a {
@@ -287,13 +248,9 @@ header p {
   <article class="paper">
     <header>
       <div class="header-content">
-        <div class="header-pic" title="Wiggle Wiggle">
-          <div class="pic"></div>
-        </div>
         <div class="header-text">
           <p><b>
-            <span class="first-name">Shriya</span>
-            Natesan
+            <span class="first-name">Shriya Natesan</span>
             </b></p>
           <p class="subtitle">Software Developer at Barclays</p>
         </div>
@@ -310,15 +267,15 @@ header p {
           </div>
           <div class="content-text">
             <ul>
-              <li>Website</li>
+              <li>Website -</li>
               <li>https://shriya-24.github.io/</li>
             </ul>
             <ul>
-              <li>Email</li>
+              <li>Email -</li>
               <li>shriyanatesan97@gmail.com</li>
             </ul>
             <ul>
-              <li>Phone</li>
+              <li>Phone -</li>
               <li>+91 123 456 78</li>
             </ul>
           </div>
@@ -333,11 +290,11 @@ header p {
           </div>
           <div class="content-text">
             <ul>
-              <li>City</li>
+              <li>City -</li>
               <li>Mumbai</li>
             </ul>
             <ul>
-              <li>State</li>
+              <li>State -</li>
               <li>Maharshtra</li>
             </ul>
           </div>
@@ -352,13 +309,13 @@ header p {
           </div>
           <div class="content-text">
             <ul>
-              <li>LinkedIn</li>
+              <li>LinkedIn -</li>
               <li>
                 <a href="www.linkedin.com/in/shriya-natesan-925280187">Shriya Natesan - LinkedIn</a>
               </li>
             </ul>
             <ul>
-              <li>Github</li>
+              <li>Github -</li>
               <li>
                 <a href="https://github.com/shriya-24" >Shriya Natesan - GitHub</a>
               </li>
@@ -371,12 +328,12 @@ header p {
         <div class="row">
           <div class="content-cat big-text">
            Software Developer
-            <p>2019-08-01 till today</p>
+            <p>2019-08-01 - Present</p>
           </div>
           <div class="content-text work-listing">
             <p>Working as an API developer at Barclays Pune</p>
             <p class="highlight">Main skills are Java, Spring Boot, Cloud, Angular etc.</p>
-             <p class="highlight">Even know how to perform unit testing.</p>
+             <p class="highlight">Deploy app on cloud,  to perform unit testing.</p>
           </div>
         </div>
       </section>
